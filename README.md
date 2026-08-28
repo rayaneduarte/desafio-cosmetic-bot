@@ -168,3 +168,18 @@ Nenhuma credencial é lida do código: as chaves vêm exclusivamente de variáve
 (`GEMINI_API_KEY`, `GROQ_API_KEY`). **Não** cole sua chave em `chatbot.py`, em `demos/juiz.py`
 nem em arquivos de teste. Se precisar de um arquivo local com as chaves, use um `.env` — ele já
 está coberto pelo `.gitignore`.
+
+## Avaliação desenvolvida
+
+A solução do desafio está documentada em [AVALIACAO.md](AVALIACAO.md).
+
+Arquivos principais da avaliação:
+
+- `golden_dataset.json`
+- `testes/test_golden_dataset.py`
+- `prompt.txt`
+
+Para executar a suíte:
+
+```powershell
+deepeval test run testes/test_golden_dataset.py -s
