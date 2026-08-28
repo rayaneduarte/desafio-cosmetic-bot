@@ -19,16 +19,18 @@ Para as avaliações com LLM-as-a-Judge, foi utilizado o **Gemini 3.5 Flash-Lite
 
 ```text
 desafio-cosmetic-bot/
-├── chatbot.py
-├── catalogo.json
-├── prompt.txt
-├── golden_dataset.json
-├── testes/
-│   └── test_golden_dataset.py
 ├── demos/
-│   └── juiz.py
+├── testes/
+├── .gitignore
+├── catalogo.json
+├── chatbot.py
+├── descritivo_challenge.md
+├── golden_dataset.json
 ├── GUIA_INSTALACAO.md
-└── README.md
+├── prompt.txt
+├── README.md
+└── sessao_exploratoria.md
+
 ```
 
 ### Principais arquivos da avaliação
@@ -41,6 +43,7 @@ desafio-cosmetic-bot/
 | `prompt.txt` | Prompt do sistema refinado após a análise da baseline |
 | `chatbot.py` | Implementação do chatbot avaliado |
 | `demos/juiz.py` | Configuração do modelo utilizado como juiz |
+| `sessao_exploratoria.md` | Registro dos 22 testes realizados durante a sessão exploratória |
 
 ---
 
