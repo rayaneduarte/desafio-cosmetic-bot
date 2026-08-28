@@ -154,4 +154,5 @@ def test_golden_dataset(caso_dataset):
     assert_test(
         caso,
         metricas,
+        run_async=False,
     )
